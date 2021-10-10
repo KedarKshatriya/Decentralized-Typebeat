@@ -1,28 +1,15 @@
 {
-    "background_color": "#fff",
-    "display": "standalone",
-    "homepage_url": "",
-    "providedBy": { "name": "TypeBeat", "url": "" },
-    "icons": [
-      {
-        "src": "./assets/iconset/red/128.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "./assets/iconset/red/512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any maskable"
-      }
-    ],
-    "orientation": "portrait",
-    "name": "TypeBeat",
+    "background_color": "white",
     "description": "NFT Marketplace for music samples",
-    "iconPath": "./assets/iconset/red/256.png",
+    "display": "standalone",
+    "icons": [{
+        "src": "typebeat.png",
+        "sizes": "48x48 72x72 96x96 160x160 320x320 512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }],
+    "name": "TypeBeat: NFT Marketplace for music samples",
     "short_name": "TypeBeat",
-    "start_url": ".",
     "theme_color": "#C02B2C",
-    "skylink": ""
+    "start_url": "."
   }
