@@ -1,7 +1,6 @@
 {
   "name": "typebeat",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@babel/core": "^7.0.0-0",
     "@craco/craco": "^6.2.0",
