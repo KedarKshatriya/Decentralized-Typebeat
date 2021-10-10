@@ -1,6 +1,6 @@
 # TypeBeat NFT Marketplace
 For ETHOnline Hackathon
-[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/[CADTtiQfTQnICfhmWIReLRAG4WOm2G95RY3cZi92uKDe_w])
+[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/[AQAhyxu7DdyfmMWReGtb5cf-QmUUAynmxhjmFSMkDPNoAw])
 ## Steps to run this application
 
 Clone this repo
