@@ -233,20 +233,25 @@ function App() {
   const NFT = ({ nft }) => {
     console.log(nft.metaData);
     return (
-      <s.Container style={{ padding: 16 }}>
+    <s.Container ai="center" style={{ padding: 16 }}>
+      <div className="mb-8">
         <p className="title">
-          {nft.metaData.name} {nft.id}
+          {nft.metaData.name}
         </p>
-        <img alt={nft.metaData.name} src={nft.metaData.image} width={"100%"} />
+        <p className="subtitle">
+          {nft.metaData.description}
+        </p>
+        </div>
+        <img className="rounded-full mb-8 mx-auto" alt={nft.metaData.name} src={nft.metaData.image} width={"66%"} />
         {nft?.metaData?.audio && (
-          <figure className="mb-8">
-            <audio controls className="" src={nft.metaData.audio}>
+          <figure className="mb-8 mx-auto">
+            <audio controls controlsList="nodownload" className="" src={nft.metaData.audio}>
               Your browser does not support the
               <code>audio</code> element.
             </audio>
           </figure>
         )}
-      </s.Container>
+    </s.Container>
     );
   };
 
@@ -317,6 +322,8 @@ function App() {
           </>
         ) : null}
         <s.SpacerLarge />
+        {!loading && (
+          <>
         <form onSubmit={handleSubmission}>
           <SignatureCanvas
             backgroundColor={"#FF385C"}
@@ -376,8 +383,7 @@ function App() {
               startMintingProcess();
             }}
             className="button button__primary"
-            type="submit"
-          >
+            type="submit">
             Mint
           </button>
           <s.SpacerSmall />
@@ -392,6 +398,8 @@ function App() {
             Clear
           </button>
         </s.Container>
+        </>
+      )}
         <Gallery />
         <s.SpacerLarge />
       </s.Container>
